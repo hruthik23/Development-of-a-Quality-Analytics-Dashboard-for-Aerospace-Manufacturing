@@ -1,0 +1,1785 @@
+INFO:Aeroanalytics:Loading Capstone.xlsx...
+INFO:Aeroanalytics:Loaded 3,240 rows and 52 columns.
+INFO:Aeroanalytics:Dashboard refreshed using 3,240 filtered rows.
+INFO:Aeroanalytics:Dashboard refreshed using 3,240 filtered rows.
+INFO:Aeroanalytics:Switched to Light mode.
+INFO:Aeroanalytics:Switched to Dark mode.
+INFO:Aeroanalytics:Loading Capstone.xlsx...
+INFO:Aeroanalytics:Loaded 3,240 rows and 52 columns.
+INFO:Aeroanalytics:Dashboard refreshed using 3,240 filtered rows.
+INFO:Aeroanalytics:Dashboard refreshed using 3,240 filtered rows.
+INFO:Aeroanalytics:Loading Capstone.xlsx...
+INFO:Aeroanalytics:Loaded 3,240 rows and 52 columns.
+INFO:Aeroanalytics:Dashboard refreshed using 3,240 filtered rows.
+INFO:Aeroanalytics:Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 18:07:30,545 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-28 18:07:32,827 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-28 18:07:33,101 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 18:07:33,324 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 18:07:49,809 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1288, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-28 18:15:11,371 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1288, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-28 18:15:21,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1288, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-28 23:47:59,239 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1288, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-28 23:57:49,744 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-28 23:57:49,744 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-28 23:57:51,898 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-28 23:57:51,898 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-28 23:57:52,028 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 23:57:52,028 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 23:57:52,409 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 23:57:52,409 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-28 23:58:08,217 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-28 23:58:08,217 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:20:40,918 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:20:40,918 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:20:43,207 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:20:43,207 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:20:43,396 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:20:43,396 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:20:43,686 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:20:43,686 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:20:50,432 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:20:50,432 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:44:22,319 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:44:22,319 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:44:22,319 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:44:22,319 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:44:22,319 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-03-30 14:44:24,410 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:44:24,410 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:44:24,410 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:44:24,410 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:44:24,410 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-03-30 14:44:24,604 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,604 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,604 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,604 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,604 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,874 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,874 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,874 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,874 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:24,874 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-03-30 14:44:38,495 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:44:38,495 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:44:38,495 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:44:38,495 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:44:38,495 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:45:46,716 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:45:46,716 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:45:46,716 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:45:46,716 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-03-30 14:45:46,716 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1287, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-02 11:01:15,465 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-02 11:01:17,959 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-02 11:01:18,237 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:01:18,519 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:01:34,707 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1297, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-02 11:01:54,081 INFO Aeroanalytics: Real-time monitoring started.
+2026-04-02 11:01:59,127 INFO Aeroanalytics: New real-time data point added.
+2026-04-02 11:01:59,190 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:02:04,128 INFO Aeroanalytics: New real-time data point added.
+2026-04-02 11:02:04,164 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:02:09,139 INFO Aeroanalytics: New real-time data point added.
+2026-04-02 11:02:09,330 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:02:12,602 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\insightos.py", line 1297, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-02 11:02:14,146 INFO Aeroanalytics: New real-time data point added.
+2026-04-02 11:02:14,357 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:02:18,364 INFO Aeroanalytics: Real-time monitoring stopped.
+2026-04-02 11:02:25,268 INFO Aeroanalytics: Switched to Light mode.
+2026-04-02 11:02:27,697 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-02 11:09:22,193 INFO Aeroanalytics: Dashboard refreshed using 3,096 filtered rows.
+2026-04-02 11:09:25,305 INFO Aeroanalytics: Dashboard refreshed using 2,919 filtered rows.
+2026-04-02 11:09:28,917 INFO Aeroanalytics: Dashboard refreshed using 2,804 filtered rows.
+2026-04-02 11:09:35,002 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:09:46,099 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:13:02,793 INFO Aeroanalytics: Loaded 500 rows from quality_data.
+2026-04-02 11:13:02,793 INFO Aeroanalytics: Loaded 500 rows from quality_data.
+2026-04-02 11:13:02,930 INFO Aeroanalytics: Dashboard refreshed using 500 filtered rows.
+2026-04-02 11:13:02,930 INFO Aeroanalytics: Dashboard refreshed using 500 filtered rows.
+2026-04-02 11:13:03,296 INFO Aeroanalytics: Dashboard refreshed using 500 filtered rows.
+2026-04-02 11:13:03,296 INFO Aeroanalytics: Dashboard refreshed using 500 filtered rows.
+2026-04-02 11:18:19,523 INFO Aeroanalytics: Real-time monitoring started.
+2026-04-02 11:18:19,523 INFO Aeroanalytics: Real-time monitoring started.
+2026-04-02 11:18:20,726 INFO Aeroanalytics: Real-time monitoring stopped.
+2026-04-02 11:18:20,726 INFO Aeroanalytics: Real-time monitoring stopped.
+2026-04-02 11:19:36,757 INFO Aeroanalytics: Dashboard refreshed using 500 filtered rows.
+2026-04-02 11:19:36,757 INFO Aeroanalytics: Dashboard refreshed using 500 filtered rows.
+2026-04-02 11:24:52,878 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-02 11:24:52,878 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-02 11:24:52,878 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-02 11:24:54,482 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-02 11:24:54,482 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-02 11:24:54,482 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-02 11:24:54,605 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:24:54,605 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:24:54,605 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:24:54,950 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:24:54,950 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:24:54,950 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:24:57,471 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-02 11:24:57,471 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-02 11:24:57,471 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-02 11:25:03,072 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:03,072 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:03,072 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:06,736 INFO Aeroanalytics: Dashboard refreshed using 817 rows matching filters and search: 'gear'.
+2026-04-02 11:25:06,736 INFO Aeroanalytics: Dashboard refreshed using 817 rows matching filters and search: 'gear'.
+2026-04-02 11:25:06,736 INFO Aeroanalytics: Dashboard refreshed using 817 rows matching filters and search: 'gear'.
+2026-04-02 11:25:09,955 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:09,955 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:09,955 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:20,740 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'ap'.
+2026-04-02 11:25:20,740 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'ap'.
+2026-04-02 11:25:20,740 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'ap'.
+2026-04-02 11:25:21,380 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'apu'.
+2026-04-02 11:25:21,380 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'apu'.
+2026-04-02 11:25:21,380 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'apu'.
+2026-04-02 11:25:30,589 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:30,589 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-02 11:25:30,589 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:19,317 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,035 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,158 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:21,460 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:01:46,989 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:02:31,035 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1277, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:09:44,553 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 11:09:46,102 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 11:09:46,233 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:09:46,538 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 11:10:11,430 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 11:10:23,801 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 12:19:06,989 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 12:19:06,989 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 12:19:08,449 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 12:19:08,449 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 12:19:08,534 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:19:08,534 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:19:08,871 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:19:08,871 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:19:24,741 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 12:19:24,741 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 12:19:57,412 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 12:19:57,412 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 12:19:59,772 INFO Aeroanalytics: Dashboard refreshed using 86 filtered rows.
+2026-04-06 12:19:59,772 INFO Aeroanalytics: Dashboard refreshed using 86 filtered rows.
+2026-04-06 12:20:02,450 INFO Aeroanalytics: Dashboard refreshed using 12 filtered rows.
+2026-04-06 12:20:02,450 INFO Aeroanalytics: Dashboard refreshed using 12 filtered rows.
+2026-04-06 12:20:04,974 INFO Aeroanalytics: Dashboard refreshed using 4 filtered rows.
+2026-04-06 12:20:04,974 INFO Aeroanalytics: Dashboard refreshed using 4 filtered rows.
+2026-04-06 12:20:14,028 INFO Aeroanalytics: Dashboard refreshed using 7 filtered rows.
+2026-04-06 12:20:14,028 INFO Aeroanalytics: Dashboard refreshed using 7 filtered rows.
+2026-04-06 12:20:16,869 INFO Aeroanalytics: Dashboard refreshed using 88 filtered rows.
+2026-04-06 12:20:16,869 INFO Aeroanalytics: Dashboard refreshed using 88 filtered rows.
+2026-04-06 12:20:19,057 INFO Aeroanalytics: Dashboard refreshed using 822 filtered rows.
+2026-04-06 12:20:19,057 INFO Aeroanalytics: Dashboard refreshed using 822 filtered rows.
+2026-04-06 12:20:21,647 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:20:21,647 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:20:40,727 INFO Aeroanalytics: Dashboard refreshed using 3,240 rows matching filters and search: 'p'.
+2026-04-06 12:20:40,727 INFO Aeroanalytics: Dashboard refreshed using 3,240 rows matching filters and search: 'p'.
+2026-04-06 12:20:41,791 INFO Aeroanalytics: Dashboard refreshed using 3,240 rows matching filters and search: 'pr'.
+2026-04-06 12:20:41,791 INFO Aeroanalytics: Dashboard refreshed using 3,240 rows matching filters and search: 'pr'.
+2026-04-06 12:20:42,775 INFO Aeroanalytics: Dashboard refreshed using 3,240 rows matching filters and search: 'p'.
+2026-04-06 12:20:42,775 INFO Aeroanalytics: Dashboard refreshed using 3,240 rows matching filters and search: 'p'.
+2026-04-06 12:20:43,716 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-06 12:20:43,716 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-06 12:20:47,348 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:20:47,348 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:20:49,840 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'apu'.
+2026-04-06 12:20:49,840 INFO Aeroanalytics: Dashboard refreshed using 848 rows matching filters and search: 'apu'.
+2026-04-06 12:20:53,131 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:20:53,131 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:20:58,359 INFO Aeroanalytics: No rows match the current filters.
+2026-04-06 12:20:58,359 INFO Aeroanalytics: No rows match the current filters.
+2026-04-06 12:21:00,521 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 12:21:00,521 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 12:21:04,267 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:21:04,267 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:22:16,476 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:22:16,476 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:22:21,020 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:22:21,020 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:22:21,948 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:22:21,948 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:22:24,222 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:22:24,222 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:34:56,089 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:34:56,089 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:34:57,265 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:34:57,265 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:03,331 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:03,331 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:03,494 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:03,494 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:03,648 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:03,648 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:03,830 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:03,830 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:03,966 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:03,966 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:04,116 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:04,116 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:04,268 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:04,268 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:04,418 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:04,418 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:04,573 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:04,573 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 12:35:04,716 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:04,716 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 12:35:15,492 INFO Aeroanalytics: No rows match the current filters.
+2026-04-06 12:35:15,492 INFO Aeroanalytics: No rows match the current filters.
+2026-04-06 12:35:16,832 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'dat'.
+2026-04-06 12:35:16,832 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'dat'.
+2026-04-06 12:35:17,620 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 12:35:17,620 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 12:35:25,815 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:35:25,815 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 12:35:46,212 INFO Aeroanalytics: Real-time monitoring started.
+2026-04-06 12:35:46,212 INFO Aeroanalytics: Real-time monitoring started.
+2026-04-06 12:35:49,592 INFO Aeroanalytics: Real-time monitoring stopped.
+2026-04-06 12:35:49,592 INFO Aeroanalytics: Real-time monitoring stopped.
+2026-04-06 14:16:40,561 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:16:40,561 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:16:40,561 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:16:42,223 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:16:42,223 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:16:42,223 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:16:42,344 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:16:42,344 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:16:42,344 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:16:42,658 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:16:42,658 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:16:42,658 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:16:50,758 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 14:16:50,758 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 14:16:50,758 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 14:17:02,850 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:17:02,850 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:17:02,850 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:17:04,618 INFO Aeroanalytics: Dashboard refreshed using 160 filtered rows.
+2026-04-06 14:17:04,618 INFO Aeroanalytics: Dashboard refreshed using 160 filtered rows.
+2026-04-06 14:17:04,618 INFO Aeroanalytics: Dashboard refreshed using 160 filtered rows.
+2026-04-06 14:17:06,012 INFO Aeroanalytics: Dashboard refreshed using 14 filtered rows.
+2026-04-06 14:17:06,012 INFO Aeroanalytics: Dashboard refreshed using 14 filtered rows.
+2026-04-06 14:17:06,012 INFO Aeroanalytics: Dashboard refreshed using 14 filtered rows.
+2026-04-06 14:17:07,646 INFO Aeroanalytics: Dashboard refreshed using 6 filtered rows.
+2026-04-06 14:17:07,646 INFO Aeroanalytics: Dashboard refreshed using 6 filtered rows.
+2026-04-06 14:17:07,646 INFO Aeroanalytics: Dashboard refreshed using 6 filtered rows.
+2026-04-06 14:17:10,560 INFO Aeroanalytics: Dashboard refreshed using 15 filtered rows.
+2026-04-06 14:17:10,560 INFO Aeroanalytics: Dashboard refreshed using 15 filtered rows.
+2026-04-06 14:17:10,560 INFO Aeroanalytics: Dashboard refreshed using 15 filtered rows.
+2026-04-06 14:17:12,097 INFO Aeroanalytics: Dashboard refreshed using 88 filtered rows.
+2026-04-06 14:17:12,097 INFO Aeroanalytics: Dashboard refreshed using 88 filtered rows.
+2026-04-06 14:17:12,097 INFO Aeroanalytics: Dashboard refreshed using 88 filtered rows.
+2026-04-06 14:17:14,208 INFO Aeroanalytics: Dashboard refreshed using 822 filtered rows.
+2026-04-06 14:17:14,208 INFO Aeroanalytics: Dashboard refreshed using 822 filtered rows.
+2026-04-06 14:17:14,208 INFO Aeroanalytics: Dashboard refreshed using 822 filtered rows.
+2026-04-06 14:17:15,635 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:15,635 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:15,635 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:23,266 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 14:17:23,266 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 14:17:23,266 INFO Aeroanalytics: Dashboard refreshed using 687 rows matching filters and search: 'datum'.
+2026-04-06 14:17:27,581 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:27,581 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:27,581 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:32,703 INFO Aeroanalytics: Dashboard refreshed using 817 rows matching filters and search: 'gear'.
+2026-04-06 14:17:32,703 INFO Aeroanalytics: Dashboard refreshed using 817 rows matching filters and search: 'gear'.
+2026-04-06 14:17:32,703 INFO Aeroanalytics: Dashboard refreshed using 817 rows matching filters and search: 'gear'.
+2026-04-06 14:17:37,806 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:37,806 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:37,806 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:17:43,933 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:17:43,933 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:17:43,933 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:17:50,279 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 14:17:50,279 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 14:17:50,279 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 14:20:07,802 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:20:07,802 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:20:07,802 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:20:07,802 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 14:20:09,094 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:20:09,094 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:20:09,094 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:20:09,094 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 14:20:09,180 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,180 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,180 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,180 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,707 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,707 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,707 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:20:09,707 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:23:35,091 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 14:23:35,091 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 14:23:35,091 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 14:23:35,091 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 14:23:36,903 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:23:36,903 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:23:36,903 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:23:36,903 INFO Aeroanalytics: Dashboard refreshed using 817 filtered rows.
+2026-04-06 14:23:41,569 INFO Aeroanalytics: Dashboard refreshed using 791 filtered rows.
+2026-04-06 14:23:41,569 INFO Aeroanalytics: Dashboard refreshed using 791 filtered rows.
+2026-04-06 14:23:41,569 INFO Aeroanalytics: Dashboard refreshed using 791 filtered rows.
+2026-04-06 14:23:41,569 INFO Aeroanalytics: Dashboard refreshed using 791 filtered rows.
+2026-04-06 14:23:50,016 INFO Aeroanalytics: Dashboard refreshed using 166 filtered rows.
+2026-04-06 14:23:50,016 INFO Aeroanalytics: Dashboard refreshed using 166 filtered rows.
+2026-04-06 14:23:50,016 INFO Aeroanalytics: Dashboard refreshed using 166 filtered rows.
+2026-04-06 14:23:50,016 INFO Aeroanalytics: Dashboard refreshed using 166 filtered rows.
+2026-04-06 14:23:55,570 INFO Aeroanalytics: Dashboard refreshed using 76 filtered rows.
+2026-04-06 14:23:55,570 INFO Aeroanalytics: Dashboard refreshed using 76 filtered rows.
+2026-04-06 14:23:55,570 INFO Aeroanalytics: Dashboard refreshed using 76 filtered rows.
+2026-04-06 14:23:55,570 INFO Aeroanalytics: Dashboard refreshed using 76 filtered rows.
+2026-04-06 14:24:02,998 INFO Aeroanalytics: Dashboard refreshed using 18 filtered rows.
+2026-04-06 14:24:02,998 INFO Aeroanalytics: Dashboard refreshed using 18 filtered rows.
+2026-04-06 14:24:02,998 INFO Aeroanalytics: Dashboard refreshed using 18 filtered rows.
+2026-04-06 14:24:02,998 INFO Aeroanalytics: Dashboard refreshed using 18 filtered rows.
+2026-04-06 14:24:27,009 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:24:27,009 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:24:27,009 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:24:27,009 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 14:24:37,438 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,438 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,438 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,438 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,444 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,444 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,444 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:37,444 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:43,061 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:48,542 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,083 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:51,894 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:24:58,186 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,625 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,625 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,625 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,625 ERROR Aeroanalytics: ML Task failure
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 697, in run
+    result = self.task_func(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1354, in train_defect_classifier
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,633 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,633 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,633 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:04,633 ERROR Aeroanalytics: Predictive Model Error: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-04-06 14:25:10,279 INFO Aeroanalytics: Dashboard refreshed using 75 filtered rows.
+2026-04-06 14:25:10,279 INFO Aeroanalytics: Dashboard refreshed using 75 filtered rows.
+2026-04-06 14:25:10,279 INFO Aeroanalytics: Dashboard refreshed using 75 filtered rows.
+2026-04-06 14:25:10,279 INFO Aeroanalytics: Dashboard refreshed using 75 filtered rows.
+2026-04-06 14:25:17,489 INFO Aeroanalytics: Dashboard refreshed using 373 filtered rows.
+2026-04-06 14:25:17,489 INFO Aeroanalytics: Dashboard refreshed using 373 filtered rows.
+2026-04-06 14:25:17,489 INFO Aeroanalytics: Dashboard refreshed using 373 filtered rows.
+2026-04-06 14:25:17,489 INFO Aeroanalytics: Dashboard refreshed using 373 filtered rows.
+2026-04-06 14:25:19,004 INFO Aeroanalytics: Dashboard refreshed using 794 filtered rows.
+2026-04-06 14:25:19,004 INFO Aeroanalytics: Dashboard refreshed using 794 filtered rows.
+2026-04-06 14:25:19,004 INFO Aeroanalytics: Dashboard refreshed using 794 filtered rows.
+2026-04-06 14:25:19,004 INFO Aeroanalytics: Dashboard refreshed using 794 filtered rows.
+2026-04-06 14:25:20,549 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:25:20,549 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:25:20,549 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:25:20,549 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 14:29:29,247 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 14:29:29,247 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 14:29:29,247 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 14:29:29,247 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:47:07,741 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:47:07,741 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:47:07,741 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:47:07,741 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:47:07,741 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:47:07,741 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:47:10,038 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:47:10,038 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:47:10,038 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:47:10,038 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:47:10,038 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:47:10,038 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:47:10,228 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,228 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,228 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,228 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,228 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,228 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:10,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:47:36,595 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:47:36,595 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:47:36,595 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:47:36,595 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:47:36,595 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:47:36,595 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:48:52,139 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 21:48:52,139 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 21:48:52,139 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 21:48:52,139 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 21:48:52,139 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 21:48:52,139 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-06 21:48:55,635 INFO Aeroanalytics: Dashboard refreshed using 182 filtered rows.
+2026-04-06 21:48:55,635 INFO Aeroanalytics: Dashboard refreshed using 182 filtered rows.
+2026-04-06 21:48:55,635 INFO Aeroanalytics: Dashboard refreshed using 182 filtered rows.
+2026-04-06 21:48:55,635 INFO Aeroanalytics: Dashboard refreshed using 182 filtered rows.
+2026-04-06 21:48:55,635 INFO Aeroanalytics: Dashboard refreshed using 182 filtered rows.
+2026-04-06 21:48:55,635 INFO Aeroanalytics: Dashboard refreshed using 182 filtered rows.
+2026-04-06 21:48:59,196 INFO Aeroanalytics: Dashboard refreshed using 30 filtered rows.
+2026-04-06 21:48:59,196 INFO Aeroanalytics: Dashboard refreshed using 30 filtered rows.
+2026-04-06 21:48:59,196 INFO Aeroanalytics: Dashboard refreshed using 30 filtered rows.
+2026-04-06 21:48:59,196 INFO Aeroanalytics: Dashboard refreshed using 30 filtered rows.
+2026-04-06 21:48:59,196 INFO Aeroanalytics: Dashboard refreshed using 30 filtered rows.
+2026-04-06 21:48:59,196 INFO Aeroanalytics: Dashboard refreshed using 30 filtered rows.
+2026-04-06 21:49:01,902 INFO Aeroanalytics: Dashboard refreshed using 10 filtered rows.
+2026-04-06 21:49:01,902 INFO Aeroanalytics: Dashboard refreshed using 10 filtered rows.
+2026-04-06 21:49:01,902 INFO Aeroanalytics: Dashboard refreshed using 10 filtered rows.
+2026-04-06 21:49:01,902 INFO Aeroanalytics: Dashboard refreshed using 10 filtered rows.
+2026-04-06 21:49:01,902 INFO Aeroanalytics: Dashboard refreshed using 10 filtered rows.
+2026-04-06 21:49:01,902 INFO Aeroanalytics: Dashboard refreshed using 10 filtered rows.
+2026-04-06 21:49:11,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:49:11,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:49:11,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:49:11,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:49:11,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:49:11,145 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:49:16,916 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:49:16,916 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:49:16,916 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:49:16,916 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:49:16,916 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:49:16,916 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:49:18,226 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:49:18,226 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:49:18,226 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:49:18,226 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:49:18,226 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:49:18,226 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:40,855 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,497 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,539 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:52:42,898 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:08,693 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:53:31,731 INFO Aeroanalytics: Switched to Light mode.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-06 21:55:19,369 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:20,707 INFO Aeroanalytics: Loading Capstone.xlsx...
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:23,887 INFO Aeroanalytics: Loaded 3,240 rows and 52 columns.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,094 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:27:24,374 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:43,488 INFO Aeroanalytics: Dashboard refreshed using 848 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:28:51,843 INFO Aeroanalytics: Dashboard refreshed using 154 filtered rows.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:08,601 ERROR Aeroanalytics: ARIMA model fit failed: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+Traceback (most recent call last):
+  File "c:\users\nagay\onedrive\documents\aeroanalytics.py", line 1278, in forecast_copq
+    model = ARIMA(monthly, order=(1,1,0), trend='c')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nagay\anaconda3\Lib\site-packages\statsmodels\tsa\arima\model.py", line 172, in __init__
+    raise ValueError(
+ValueError: In models with integration (`d > 0`) or seasonal integration (`D > 0`), trend terms of lower order than `d + D` cannot be (as they would be eliminated due to the differencing operation). For example, a constant cannot be included in an ARIMA(1, 1, 1) model, but including a linear trend, which would have the same effect as fitting a constant to the differenced data, is allowed.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:29:34,093 INFO Aeroanalytics: Dashboard refreshed using 640 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:16,219 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:28,510 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'po'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:29,332 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'por'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:30,110 INFO Aeroanalytics: Dashboard refreshed using 987 rows matching filters and search: 'poro'.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:43,189 INFO Aeroanalytics: Dashboard refreshed using 3,240 filtered rows.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:45,054 INFO Aeroanalytics: Switched to Light mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
+2026-04-07 10:31:49,233 INFO Aeroanalytics: Switched to Dark mode.
